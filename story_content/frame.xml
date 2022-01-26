@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Lato" controllayout="npnxnanbsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Lato" controllayout="pxabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Lato" controllayout="npxnabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Lato" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Lato" controllayout="pxabnsnfns00000000000" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000100001" font="Lato" controllayout="npnxnanbsnfns00000100001" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
+    <layout name="pxabnsnfns00000100001" font="Lato" controllayout="pxabnsnfns00000100001" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
+    <layout name="npxnabnsnfns00000100001" font="Lato" controllayout="npxnabnsnfns00000100001" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
+    <layout name="npnxnanbnsnfns00000100001" font="Lato" controllayout="npnxnanbnsnfns00000100001" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
+    <layout name="pxabnsnfns00000100000" font="Lato" controllayout="pxabnsnfns00000100000" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Treasure_hunt_MS_ver4" />
+              <option name="title_text" value="Treasure_hunt_MS_ver5" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -22,12 +22,12 @@
           <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
-              <option name="closed" value="false" />
+              <option name="closed" value="true" />
             </options>
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="resources" value="true" group="linkright" />
               <listitem name="outline" value="false" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -91,7 +91,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00000000001">
+    <control_layout name="npnxnanbsnfns00000100001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -104,7 +104,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -114,7 +114,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000001">
+    <control_layout name="pxabnsnfns00000100001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -127,7 +127,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -137,7 +137,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00000000001">
+    <control_layout name="npxnabnsnfns00000100001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -150,7 +150,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -160,7 +160,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00000000001">
+    <control_layout name="npnxnanbnsnfns00000100001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -173,7 +173,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -183,7 +183,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000000">
+    <control_layout name="pxabnsnfns00000100000">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -196,7 +196,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -208,7 +208,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00000000001">
+    <colorscheme name="pxabnsnfns00000100001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1385,7 +1385,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00000000001">
+    <string_table name="pxabnsnfns00000100001">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1408,12 +1408,20 @@
       <string id="three_image_interaction_prev">previous</string>
       <string id="three_image_visited">visited</string>
       <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
       <string id="three_image_item">item</string>
       <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
       <string id="three_image_progress_video">progress</string>
       <string id="three_image_video">video</string>
       <string id="three_image_video_volume">video volume</string>
       <string id="three_image_view_image">view image</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
@@ -1521,10 +1529,10 @@
       <links>
         <slidelink slideid="_player.6HrB0PAfBEi" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6HrB0PAfBEi.6OurXu76jgW" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6HrB0PAfBEi.6OurXu76jgW" displaytext="MainScreen" expand="false" type="slide" />
             <slidelink slideid="_player.6HrB0PAfBEi.5V5g85P02u3" displaytext="Gallery" expand="false" type="slide" />
-            <slidelink slideid="_player.6HrB0PAfBEi.6FDN59wv4yP" displaytext="Entrance" expand="false" type="slide" />
             <slidelink slideid="_player.6HrB0PAfBEi.5WtXNVTGroa" displaytext="Zone 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6HrB0PAfBEi.6FDN59wv4yP" displaytext="Entrance" expand="false" type="slide" />
             <slidelink slideid="_player.6HrB0PAfBEi.5aSazIFf24h" displaytext="Back" expand="false" type="slide" />
             <slidelink slideid="_player.6HrB0PAfBEi.60IFBYlfizu" displaytext="Laser Cutting Room" expand="false" type="slide" />
           </links>
@@ -1532,7 +1540,11 @@
       </links>
     </outline>
   </nav_data>
-  <resource_data description="" />
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/loop_canberra.wav" image="story_content/5XqMjUwDE5O.png" title="loop_canberra" />
+    </resources>
+  </resource_data>
   <transcript_data />
   <glossary_data />
 </bwFrame>
