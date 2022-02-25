@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Treasure_hunt_MS_ver5" />
+              <option name="title_text" value="Treasure_hunt_MS_ver6" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1418,7 +1418,6 @@
       <string id="three_image_progress_video">progress</string>
       <string id="three_image_video">video</string>
       <string id="three_image_video_volume">video volume</string>
-      <string id="three_image_view_image">view image</string>
       <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
       <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
       <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
@@ -1527,14 +1526,14 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6HrB0PAfBEi" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.6HrB0PAfBEi" displaytext="Main Game" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6HrB0PAfBEi.6OurXu76jgW" displaytext="MainScreen" expand="false" type="slide" />
+            <slidelink slideid="_player.6HrB0PAfBEi.6FDN59wv4yP" displaytext="Entrance" expand="false" type="slide" />
             <slidelink slideid="_player.6HrB0PAfBEi.5V5g85P02u3" displaytext="Gallery" expand="false" type="slide" />
             <slidelink slideid="_player.6HrB0PAfBEi.5WtXNVTGroa" displaytext="Zone 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6HrB0PAfBEi.6FDN59wv4yP" displaytext="Entrance" expand="false" type="slide" />
-            <slidelink slideid="_player.6HrB0PAfBEi.5aSazIFf24h" displaytext="Back" expand="false" type="slide" />
-            <slidelink slideid="_player.6HrB0PAfBEi.60IFBYlfizu" displaytext="Laser Cutting Room" expand="false" type="slide" />
+            <slidelink slideid="_player.6HrB0PAfBEi.5aSazIFf24h" displaytext="Zone 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6HrB0PAfBEi.60IFBYlfizu" displaytext="Zone 4" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
@@ -1542,7 +1541,7 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/loop_canberra.wav" image="story_content/5XqMjUwDE5O.png" title="loop_canberra" />
+      <resource url="story_content/external_files/loop_canberra.wav" image="story_content/663nHgMMBxB.png" title="loop_canberra" />
     </resources>
   </resource_data>
   <transcript_data />
